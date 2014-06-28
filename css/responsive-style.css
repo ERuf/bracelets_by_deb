@@ -1,0 +1,510 @@
+/* VERTICAL SPACING */
+
+.headroom {
+	margin-top: 3em;
+}
+
+.headroom-xl {
+	margin-top: 5em;
+}
+
+.headroom-bit-less {
+	margin-top: 1.3em;
+}
+
+.headroom-less {
+	margin-top: 1em;
+}
+
+.legroom {
+	margin-bottom: 3em;
+}
+
+.legroom-bit-less {
+	margin-bottom: 1.3em;
+}
+
+.legroom-less {
+	margin-bottom: 1em;
+}
+
+.legroom-lots-less {
+	margin-bottom: 0.3em;
+}
+
+
+
+
+/* FONTS */
+
+body {
+	background-image: url('http://www.braceletsbydeb.com/images/body-background-tile.png');
+	color: #555;
+	font-family: Dosis, 'Helvetica Neue', Tahoma, sans-serif;
+	font-size: 18px;
+	line-height: 1.4em;
+}
+
+h1, h2, h3, h4, h5 {
+	font-family: Sacramento, cursive;
+	font-weight: normal;
+}
+
+h1 {
+	font-size: 4.25em;
+	letter-spacing: 0;
+}
+
+h2 {
+	color: #777;
+	font-size: 3em;
+	padding: 0.4em 0.1em 0.2em;
+}
+
+h3 {
+	color: #777;
+	font-size: 1.75em;
+}
+
+.red-heading, .orange-heading, .yellow-heading, .green-heading, .blue-heading, .indigo-heading, .violet-heading {
+	-webkit-border-radius: 0 25px 0 0;
+	-moz-border-radius: 0 25px 0 0;
+	border-radius: 0 25px 0 0;
+}
+
+strong.red-heading, strong.orange-heading, strong.yellow-heading, strong.green-heading, strong.blue-heading, strong.indigo-heading, strong.violet-heading {
+	-webkit-border-radius: 0;
+	-moz-border-radius: 0;
+	border-radius: 0;
+}
+
+.red-heading {
+	background: rgba(255, 0, 0, 0.15);
+}
+
+.orange-heading {
+	background: rgba(255, 125, 0, 0.15);
+}
+
+.yellow-heading {
+	background: rgba(255, 255, 0, 0.15);
+}
+
+.green-heading {
+	background: rgba(125, 255, 0, 0.15);
+}
+
+.blue-heading {
+	background: rgba(0, 255, 255, 0.15);
+}
+
+.indigo-heading {
+	background: rgba(125, 0, 255, 0.15);
+}
+
+.violet-heading {
+	background: rgba(255, 0, 255, 0.15);
+}
+
+.details p {
+	font-size: 1.1em;
+	margin-top: -0.5em;
+}
+
+.no-spam {
+	font-size: 0.75em;
+}
+
+.popular-bracelet {
+	position: relative;
+}
+
+img {
+	width: 100%;
+}
+
+
+.caption {
+	background: rgba(255,255,255,0);
+	/* -webkit-border-radius: 0 5em 5em 0;
+	-moz-border-radius: 0 5em 5em 0;
+	border-radius: 0 5em 5em 0; */
+	color: #666;
+	position: absolute;
+	left: 2%;
+	bottom: 0;
+	text-align: left;
+}
+
+.caption p {
+	margin-left: 0.9em;
+}
+
+.caption a {
+	background: rgba(255,255,255,0.9);
+	border-radius: 3px;
+	padding: 0 5px 2px;
+	font-size: 1.25em;
+	margin-left: 0.5em;
+}
+
+.caption a:hover, .caption a:active {
+	color: #fff;
+	background: #0088cc !important;
+	text-decoration: none;
+
+}
+
+.testimonial {
+	color: rgb(235, 165, 165);
+	font-size: 1.5em;
+	font-style: italic;
+}
+
+.testimonial-author {
+	margin-bottom: 2em;
+}
+
+
+
+
+
+/* NEW STYLES */
+
+.bracelet form, .popular-bracelet form {
+	display: inline;
+}
+
+i.safe-and-sound {
+	display: inline-block;
+	vertical-align: text-top;
+	font-size: 5em;
+	line-height: 1.4em;
+	color: rgba(0, 159, 189, 0.25);
+}
+
+table.safe-and-sound {
+	display: inline-block;
+	vertical-align: bottom;
+}
+
+
+
+
+
+/* BOOTSTRAP CUSTOMIZATION */
+
+/* NAVBAR */
+
+.navbar {
+	background-color: rgba(245, 245, 245, 0.96);
+	border: 1px solid #ddd;
+	-webkit-box-shadow: 0 1px 7px rgba(0,0,0,0.1);
+	-moz-box-shadow: 0 1px 7px rgba(0,0,0,0.1);
+	box-shadow: 0 1px 7px rgba(0,0,0,0.1);
+	height: 65px;
+}
+
+.navbar-brand {
+	color: #666;
+	font-family: Sacramento, sans-serif;
+	font-size: 30px;
+	font-weight: 200;
+	/*margin-left: -20px;*/
+	padding: 23px 20px 0px;
+	text-shadow: 2px 2px 0 rgba(0,0,0,0.075);
+}
+
+.navbar-brand:hover, .navbar-brand:active {
+	color: #333;
+}
+
+.navbar-nav > li.active a, .navbar-nav > li.active a:hover, .navbar-nav > li.active a:focus {
+	background-color: rgba(200, 200, 200, 0.25);
+	box-shadow: inset 0 0 1px rgba(0, 0, 0, 0.125);
+	color: #777;
+}
+
+.navbar-toggle {
+	background-color: #ddd;
+	border: 1px solid rgba(0,0,0,0.05);
+}
+
+.navbar-toggle:hover {
+	background-color: #e4e4e4;
+	border: 1px solid rgba(0,0,0,0.1);
+}
+
+.navbar-toggle .icon-bar {
+	background-color: #bbb;
+}
+
+.navbar-toggle .icon-bar:hover {
+	background-color: #aaa;
+}
+
+
+@media screen and (max-width: 767px) {
+	.navbar-nav {
+		background: rgba(245,245,245,0.95);
+		border-bottom: 1px solid #ddd;
+		box-shadow: 0 1px 7px rgba(0,0,0,0.1);
+		margin-top: 13px;
+	}
+}
+
+
+
+
+
+li.free-ship:hover, li.free-ship:active {
+	background: transparent;
+}
+
+li.free-ship p {
+	line-height: 63px;
+	padding-left: 1em;
+	color: rgb(0, 179, 36);
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+	li.free-ship p {
+		display: none;
+	}
+}
+
+.hero-unit {
+	background-image: url('http://www.braceletsbydeb.com/images/hero-img.jpg');
+	border: 1px solid #ddd;
+	-webkit-border-radius: 7px 7px 0 0;
+	-moz-border-radius: 7px 7px 0 0;
+	border-radius: 7px 7px 0 0;
+	padding: 2em;
+	margin-bottom: 30px;
+}
+
+.hero-unit h1 {
+	background: rgba(180, 243, 235, 0.8);
+	font-size: 4.25em;
+	letter-spacing: 0;
+	line-height: 0.85em;
+	/*margin: 1em 0.5em 0;*/
+	padding: 0.25em 0.2em 0.3em;
+	text-align: center;
+}
+
+.hero-unit p {
+	margin-top: 2.5em;
+}
+
+.btn {
+	font-size: 18px;
+}
+
+.btn-xl {
+	-webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+	border-radius: 6px;
+	font-size: 1.75em;
+	font-weight: 500;
+	line-height: 1em;
+	padding: 15px 25px 20px;
+}
+
+input.btn {
+	width: auto;
+}
+
+@media screen and (max-width: 495px) {
+	.btn-xl {
+		font-size: 1.25em;
+	}
+}
+
+.carousel-caption {
+	/*background: rgba(255, 255, 255, 0.5);
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;*/
+	left: 5%;
+	text-align: left;
+	text-shadow: none;
+	padding: 5px 15px;
+	width: 0;
+}
+
+.carousel-caption h4 a, .carousel-caption p {
+	color: #666;
+	line-height: 1em;
+	border-radius: 4px;
+	padding: 2px 5px;
+}
+
+.carousel-caption h4 a {
+	color: #428bca;
+	font-size: 2.5em;
+	font-family: Dosis, sans-serif;
+	background: rgba(255,255,255,0.9);
+}
+
+.carousel-caption h4 a:hover, .carousel-caption h4 a:active {
+	background: #0088cc;
+	color: #fff;
+	text-decoration: none;
+}
+
+.carousel-caption p {
+	font-size: 1.75em;
+	/*background: rgba(255,255,255,0.5);*/
+}
+
+.carousel-control.left, .carousel-control.right {
+	background-image: none;
+	color: /*rgb(0, 143, 255)*/ #999;
+	font-size: 10em;
+	top: 33%;
+	text-shadow: 0 1px 5px rgba(0, 0, 0, 0.25);
+}
+
+@media screen and (min-width: 992px) {
+	.carousel-control.left, .carousel-control.right {
+		top: 40%;
+	}
+}
+
+.carousel-indicators {
+	bottom: -7px;
+}
+
+.carousel-indicators li, .carousel-indicators li.active {
+	width: 20px;
+	height: 20px;
+	margin: 1px 2px;
+	border-radius: 20px;
+	background: rgba(255,255,255,0.5);
+}
+
+.carousel-indicators li.active {
+	background-color: #fff;
+}
+
+label {
+	display: block;
+	font-size: 1em;
+}
+
+input, input[type="text"], input[type="email"], textarea, .uneditable-input {
+	font-size: 1em;
+	padding: 2px 5px;
+	width: 350px;
+}
+
+input, button, select, textarea {
+	font-family: 'Dosis', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+textarea {
+	height: 5em;
+}
+
+input:focus, textarea:focus, input[type="text"]:focus, input[type="email"]:focus, input:focus:invalid:focus, textarea:focus:invalid:focus {
+	border: 1px solid #B8E1E9;
+	outline: none;
+	-webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 20px rgba(0, 245, 255, 0.25);
+	-moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 20px rgba(0, 245, 255, 0.25);
+	box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 20px rgba(0, 245, 255, 0.25);
+	line-height: 1.5em;
+}
+
+input[type="submit"] {
+	line-height: 1.4em;
+}
+
+.breadcrumb {
+	background-color: rgba(245, 245, 245, 0.5);
+}
+
+
+
+/* CUSTOM MEDIA QUERIES */
+@media screen and (min-width: 980px) {
+	.hero-unit {
+		margin-top: 5.5em;
+	}
+
+	.breadcrumb {
+		margin-top: 5em;
+		margin-bottom: 2em;
+	}
+}
+
+@media screen and (min-width: 768px) {
+	.navbar-nav > li > a {
+		color: #777777;
+		font-size: 1.1em;
+		padding-top: 21px;
+		padding-bottom: 22px;
+		text-decoration: none;
+		text-shadow: 0 1px 0 #ffffff;
+	}
+
+	.navbar-nav > li > a.has-icon {
+		padding-bottom: 21px;
+	}
+
+	.navbar-nav > li > a:hover, .navbar-nav > li > a:active {
+		color: #333333;
+		text-decoration: none;
+	}
+
+	.carousel-caption {
+		left: 2.25%;
+	}
+
+	.carousel-indicators {
+		bottom: 0px;
+	}
+}
+
+@media screen and (max-width: 767px) {
+	.navbar-nav > li > a {
+		color: #777777;
+		font-size: 1.1em;
+		padding-top: 20px;
+		padding-bottom: 22px;
+		text-decoration: none;
+		text-shadow: 0 1px 0 #ffffff;
+	}
+
+	.navbar-nav > li > a:hover, .navbar-nav > li > a:active {
+		color: #333333;
+		text-decoration: none;
+	}
+
+	.carousel-caption {
+		left: 11%;
+	}
+}
+
+@media screen and (max-width: 979px) {
+	.nav-collapse .nav > li > a:hover, .nav-collapse .nav > li > a:focus, .nav-collapse .dropdown-menu a:hover, .nav-collapse .dropdown-menu a:focus {
+		background: rgba(200, 200, 200, 0.05);
+	}
+
+	.bracelet {
+		margin-bottom: 1.5em;
+	}
+}
+
+@media screen and (max-width: 1006px) {
+	h1 {
+		line-height: 1em;
+	}
+}
+
+/*    Hello Bar Fix   */
+
+#hellobar_container {
+	top: 65px !important;
+	z-index: 1000 !important;
+}
