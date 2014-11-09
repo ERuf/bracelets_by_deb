@@ -58,7 +58,7 @@ h1 {
 h2 {
 	color: #777;
 	font-size: 3em;
-	padding: 0.4em 0.1em 0.2em;
+	padding: 0.4em 0 0.2em 0.2em;
 }
 
 h3 {
@@ -67,9 +67,9 @@ h3 {
 }
 
 .red-heading, .orange-heading, .yellow-heading, .green-heading, .blue-heading, .indigo-heading, .violet-heading {
-	-webkit-border-radius: 0 25px 0 0;
-	-moz-border-radius: 0 25px 0 0;
-	border-radius: 0 25px 0 0;
+	-webkit-border-radius: 25px 25px 0 0;
+	-moz-border-radius: 25px 25px 0 0;
+	border-radius: 25px 25px 0 0;
 }
 
 strong.red-heading, strong.orange-heading, strong.yellow-heading, strong.green-heading, strong.blue-heading, strong.indigo-heading, strong.violet-heading {
