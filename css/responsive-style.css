@@ -123,6 +123,9 @@ img {
 	width: 100%;
 }
 
+img.sold-out {
+	opacity: 0.33;
+}
 
 .caption {
 	background: rgba(255,255,255,0);
@@ -153,6 +156,15 @@ img {
 	background: #0088cc !important;
 	text-decoration: none;
 
+}
+
+.caption.sold-out a {
+	color: #666;
+}
+
+.caption.sold-out a:hover, .caption.sold-out a:active {
+	background: rgba(255,255,255,0.9) !important;
+	color: #666;
 }
 
 .testimonial {
